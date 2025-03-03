@@ -12,7 +12,7 @@ const API_KEY ="73b0ff22b9eaa9b5ef874005d20948f31004d1de9324e714878b64a051d27b3a
 app.use(cors());
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:5173" }));
-app.use(cors({ origin: "https://ai-search-assistant.vercel.app/" }));
+
 
 app.post("/search", async (req, res) => {
     try {
